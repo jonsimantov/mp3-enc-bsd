@@ -29,6 +29,8 @@
 #include <assert.h>
 #include "l3bitstream-pvt.h"
 
+int HuffmanCode( int table_select, int x, int y, BF_PartHolder **pph );
+
 static int stereo = 1;
 static frame_params *fr_ps  = NULL;
 static Bit_stream_struc *bs = NULL;

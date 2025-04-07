@@ -29,6 +29,8 @@
 #include "pow_nint.h"
 #include "huffcode.h"
 
+int scale_bitcount_lsf( III_scalefac_t *scalefac, gr_info *cod_info,
+			int gr, int ch );
 /* #define DEBUG */
 /* #define DEBUGSC */
 /* #define PERFORM 3 */
