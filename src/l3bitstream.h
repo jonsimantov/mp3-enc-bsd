@@ -28,7 +28,7 @@ void III_format_bitstream( int              bitsPerFrame,
 			   char             *ancillary,
 			   int              anc_bits );
 
-//void III_FlushBitstream();
+void III_FlushBitstream();
 
 int abs_and_sign( int *x ); /* returns signx and changes *x to abs(*x) */
 
